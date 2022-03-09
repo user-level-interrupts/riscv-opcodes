@@ -114,6 +114,8 @@ csrs = [
   (0x342, 'mcause'),
   (0x343, 'mtval'),
   (0x344, 'mip'),
+  # added for ULI
+  (0x345, 'pid'),
   (0x3a0, 'pmpcfg0'),
   (0x3a1, 'pmpcfg1'),
   (0x3a2, 'pmpcfg2'),
